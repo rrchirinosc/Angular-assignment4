@@ -3,7 +3,7 @@
     'use strict';
     
     angular.module('Data')
-      .controller('CategoriesListController', CategoriesListController)     
+      .controller('CategoriesListController', CategoriesListController);     
        
     CategoriesListController.$inject = ['resultingCategories'];
     function CategoriesListController(resultingCategories) {
@@ -16,4 +16,4 @@
       $ctrl.categories = resultingCategories.data;     
     };
     
-    })();
+})();

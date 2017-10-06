@@ -5,7 +5,7 @@
 angular.module('Data')
     .controller('CategoryItemsListController', CategoryItemsListController);
 
-CategoryItemsListController.$inject = ['resultingItems']
+CategoryItemsListController.$inject = ['resultingItems'];
     function CategoryItemsListController(resultingItems) {
       var $ctrl = this;
 

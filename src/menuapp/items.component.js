@@ -3,9 +3,8 @@
     'use strict';
     
     angular.module('Data')
-    .controller('CategoryItemsListController', CategoryItemsListController)
     .component('items', {
-      templateUrl: 'src/menuapp/templates/items.template.html',      
+      templateUrl: 'src/menuapp/templates/items.template.html',
       bindings: {
         items: '<',
         myTitle: '@title'
